@@ -1,0 +1,298 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+    
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+html {
+    
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    font-size: 100%;
+
+}
+
+img {
+    
+    width: 100%;
+    display: block;
+    
+}
+
+.image {
+    
+    position: relative; 
+    width: 100%;
+
+}
+
+h1 { 
+    
+    position: absolute; 
+    top: 20px; 
+    left: 0; 
+    width: 100%;    
+   
+}
+
+h1 span {
+    
+    color: white; 
+    font: bold .9rem "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    letter-spacing: 0rem;  
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.7);
+    padding: .6rem; 
+
+}
+
+body {
+
+    background-color: #404040;
+
+}
+
+h2  {
+    
+    Font-size: 2.5rem;
+    margin: 0 0 1.5rem;
+    line-height:3rem;
+    padding: .2rem  0;
+    color:white;
+    font-family:helvetica,arial,sans-serif;
+    letter-spacing:.1rem;
+    word-spacing:-.3rem;
+    text-align:center
+
+}
+
+.spacer {
+    
+    padding: 1.4%;
+    background: rgba(0, 0, 0, 0);
+    
+}
+
+.logo {
+    
+    height:2rem;
+    width:2rem;
+    margin:.5rem 44%;
+        
+}
+
+.toplogo {
+    
+    height:5rem;
+    width:5rem;
+    margin:2rem 65%;
+
+}
+
+.p1 {
+    
+    font-size:1rem;
+    color:#888888 ;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    line-height:1.5;
+    text-align:center;
+    margin: 2rem;
+
+}
+
+p {
+    
+    font-size:1rem;
+    color:#888888 ;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    
+}
+
+#top, #bottom, #left, #right {
+    
+	background: #996600;
+	position: fixed;
+	
+}
+
+#left, #right {
+    
+	top: 0; 
+    bottom: 0;
+    width: 8px;
+
+}
+
+#left {
+    
+    left: 0;
+
+}
+
+#right {
+    
+    right: 0;
+    
+}
+		
+#top, #bottom {
+    
+    left: 0;
+    right: 0;
+    height: 8px;
+
+}
+
+#top {
+    
+    top: 0;
+
+}
+
+#bottom {
+    
+    bottom: 0;
+
+}
+
+h3 { 
+    
+    position: absolute; 
+    top: 20px; 
+    left: 0; 
+    width: 100%;    
+   
+}
+
+h4 {
+    
+    color: white;
+    font-family:helvetica,arial,sans-serif;
+     position: absolute; 
+    top: 2rem; 
+    left: 1.5rem; 
+    font-size:1.5rem;
+    
+}
+
+h3 span {
+    
+    color: white; 
+    font: bold .9rem "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    letter-spacing: 0rem;  
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.7);
+    padding: .6rem; 
+
+}
+
+figcaption {
+    
+    font-size:1rem;
+    padding:1rem;
+    background-color: #686868 ;
+    font-family:Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    color:white;
+    letter-spacing:.1rem
+
+}
+
+q:before {
+    
+    content: "“";
+    
+}
+
+q:after {
+    
+    content: "”";
+    
+}
+
+blockquote {
+    
+    margin: 0;
+    padding: 0 0 0 15%;
+    overflow: hidden;
+
+}
+
+blockquote p {
+    
+    font-size: 1rem;
+
+}
+
+blockquote span {
+    
+    float: right;
+    margin: 1.5rem;
+    font-size: 1rem;
+    color: white;
+    letter-spacing:.1rem;
+
+}
+
+blockquote p:before {
+    
+    content:"“";
+    font-size: 4rem;
+    color:white;
+    margin: 1rem 0 0 -2rem;
+
+}
+
+blockquote p:after {
+    
+    content:"”";
+    font-size:2rem;
+    position:absolute;
+    color:white;
+    margin: -1rem 0 0;
+
+}
+
+.mastheader {
+    
+    background-color:black;
+    overflow:hidden 
+
+}
+
+footer {
+    
+    background-color: black;
+    overflow: hidden;
+    padding: 3%;
+    
+}
+
+summary {
+    
+    color: white;
+
+}
+
+a:link {
+    
+    color:white;
+
+}  
+
+a:visited {
+    
+    color:white;
+
+} 
